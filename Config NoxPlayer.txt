@@ -1,0 +1,37 @@
+For Nox App Player, the port is 62001.
+
+$ adb connect 127.0.0.1:62001
+connected to 127.0.0.1:62001
+
+$ adb devices
+List of devices attached
+127.0.0.1:62001 device
+
+$ adb shell
+root@android:/ #
+If it does not work, please turn on "USB Debugging" first:
+
+Start Nox App Player.
+Go to "Settings" -> "About tablet".
+Tap (click) "Build number" 7 times, until it says:
+Developer mode has been enabled.
+
+Go back to the previous screen.
+Go to "Developer options".
+Turn on "USB debugging".
+Restart Nox App Player.
+
+
+
+-nox_adb.exe
+
+nox_adb.exe connect 127.0.0.1:62001 -> unable to connect to 127.0.0.1:62001.
+
+nox_adb.exe connect 127.0.0.1:5037 -> connected to 127.0.0.1:5037 (but when i trying to run react native project with this deviceId, it returns "No Android devices connected")
+
+
+-adb.exe (from Android SDK)
+
+adb.exe connect 127.0.0.1:62001 -> unable to connect to 127.0.0.1:62001.
+
+adb.exe connect 127.0.0.1:5037 -> failed to connect to 127.0.0.1:5037.
