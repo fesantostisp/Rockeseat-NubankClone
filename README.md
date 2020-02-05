@@ -2,7 +2,7 @@
 
 ##  :computer:  Projeto
 
-Este projeto  e de  grande importância para minha introdução na tecnologia  React Native. O projeto consiste recriar a famosa interface do App NuBank com suas animações e design, só tenho agradecer a rocketseat por suas aulas incríveis.  
+Este projeto e de grande importância para minha introdução na tecnologia React Native. O projeto consiste recriar a famosa interface do App NuBank com suas animações e design, só tenho agradecer a rocketseat por suas aulas incríveis.  
 
 ![enter image description here](https://user-images.githubusercontent.com/42598095/73794255-cab0de00-4786-11ea-90ba-0b297d36674f.gif)
 **Devo Lembrar que este projeto é apenas para estudos sem qualquer ligação com a empresa Nubank.**
@@ -17,9 +17,9 @@ Este projeto  e de  grande importância para minha introdução na tecnologia  R
 VScode, GIT SCM, Node.JS (*Yarn/Npm*), Nox Player (*Android*).
 
 ## :dart: Como Executar o projeto
-
- 1. executar  os comandos `yarn` e  `node install` no terminal para fazer download das dependências. 
- 2. `react-native run-android` (com um device conectado no adb com depurador e modo desenvoledor ativado).
+ 1. A Pasta SRC (Source Code) é onde fica os principais arquivos do projeto.
+ 2. executar  os comandos `yarn` e  `node install` no terminal pra fazer download das dependências do projeto. 
+ 3. `react-native run-android` (com um device conectado no adb com depurador e modo desenvolvedor ativado).
 
 ## :speak_no_evil:  Observações 
 
